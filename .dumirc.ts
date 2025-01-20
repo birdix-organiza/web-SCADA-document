@@ -9,8 +9,14 @@ export default defineConfig({
     name: 'Web SCADA',
     logo: false,
     nav: {
-      'zh-CN': [{ title: '指南', link: '/guide' }],
-      'en-US': [{ title: 'Guide', link: '/en/guide' }],
+      'en-US': [
+        { title: 'Install', link: '/install' },
+        { title: 'Usage', link: '/usage' },
+      ],
+      'zh-CN': [
+        { title: '安装', link: '/zh-CN/install' },
+        { title: '使用指南', link: '/zh-CN/usage' },
+      ],
     },
     primaryColor: '#875A7B',
   },
