@@ -1,11 +1,16 @@
 import { defineConfig } from 'dumi';
 
+//github仓库名称
+const defaultPath = '/web-SCADA-document'; 
+//打包后gh-pages默认会拼接仓库名称在路径上
+const baseUrl = process.env.NODE_ENV === 'production' ? defaultPath : '';
+
 export default defineConfig({
+  base: defaultPath,
+  publicPath: `${baseUrl}/`,
   resolve: {
     docDirs: ['my-docs'],
   },
-  runtimePublicPath: {},      // 启用运行时动态设置资源路径
-  publicPath: './',             // 设置资源路径为相对路径
   outputPath: 'docs',
   locales: [
     { id: 'en-US', name: 'EN' },
