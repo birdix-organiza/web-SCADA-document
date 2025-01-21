@@ -1,6 +1,10 @@
 import { defineConfig } from 'dumi';
 
 export default defineConfig({
+  resolve: {
+    docDirs: ['my-docs'],
+  },
+  outputPath: 'docs',
   locales: [
     { id: 'en-US', name: 'EN' },
     { id: 'zh-CN', name: '中文' },
