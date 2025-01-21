@@ -14,7 +14,7 @@ hero:
   <div class="feature-card">
     <div class="feature-icon">
       <div>
-        <img src="/assets/home/odoo_logo.png" alt="Intelligent Visual Monitoring" />
+        <img src="./odoo_logo.png" alt="Intelligent Visual Monitoring" />
       </div>
     </div>
     <div class="feature-content">
@@ -29,7 +29,7 @@ hero:
 
   <div class="feature-card">
     <div class="feature-icon">
-      <img src="/assets/home/editor_screenshot.png" alt="Low-Code Development Platform" />
+      <img src="./editor_screenshot.png" alt="Low-Code Development Platform" />
     </div>
     <div class="feature-content">
       <h3>Low-Code Development Platform</h3>
@@ -43,7 +43,7 @@ hero:
 
   <div class="feature-card">
     <div class="feature-icon">
-      <img src="/assets/home/data_driven_screenshot.png" alt="Data Intelligence Interconnection"/>
+      <img src="./data_driven_screenshot.png" alt="Data Intelligence Interconnection"/>
     </div>
     <div class="feature-content">
       <h3>Data Intelligence Interconnection</h3>

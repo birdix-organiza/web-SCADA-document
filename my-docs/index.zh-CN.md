@@ -14,7 +14,7 @@ hero:
   <div class="feature-card">
     <div class="feature-icon">
       <div>
-        <img src="/assets/home/odoo_logo.png" alt="智能可视化监控" />
+        <img src="./odoo_logo.png" alt="智能可视化监控" />
       </div>
     </div>
     <div class="feature-content">
@@ -29,7 +29,7 @@ hero:
 
   <div class="feature-card">
     <div class="feature-icon">
-      <img src="/assets/home/editor_screenshot.png" alt="低代码开发平台" />
+      <img src="./editor_screenshot.png" alt="低代码开发平台" />
     </div>
     <div class="feature-content">
       <h3>低代码开发平台</h3>
@@ -43,7 +43,7 @@ hero:
 
   <div class="feature-card">
     <div class="feature-icon">
-      <img src="/assets/home/data_driven_screenshot.png" alt="数据智能互联"/>
+      <img src="./data_driven_screenshot.png" alt="数据智能互联"/>
     </div>
     <div class="feature-content">
       <h3>数据智能互联</h3>
