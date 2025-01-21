@@ -18,4 +18,4 @@ order: 4
 2. Modify the text content in the properties panel
 3. You can adjust text properties such as font, size, color, etc.
 
-![Draw text example](/assets/usage/draw_text.gif) 
+![Draw text example](./draw_text.gif) 

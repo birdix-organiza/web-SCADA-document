@@ -27,4 +27,4 @@ order: 6
 2. 将组件拖拽到画布中需要放置的位置
 3. 根据需要调整组件的大小和属性
 
-![制作组件示例](/assets/usage/make_component.gif)
+![制作组件示例](./make_component.gif)

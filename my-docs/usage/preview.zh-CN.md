@@ -7,7 +7,7 @@ order: 11
 
 1. 进入列表界面
 2. 将页面设置为"开启"状态
-![开启页面](/assets/usage/enabled_switch.png)
+![开启页面](./enabled_switch.png)
 
 开启展示功能后，您可以通过以下两种方式预览和分享您的作品：
 
@@ -26,4 +26,4 @@ order: 11
 4. 其他用户可以通过浏览器直接访问此链接查看页面
 5. 如需停止分享，删除对应的外链即可，外部访问将立即失效
 
-![分享外链](/assets/usage/share-link.jpg)
+![分享外链](./share-link.jpg)

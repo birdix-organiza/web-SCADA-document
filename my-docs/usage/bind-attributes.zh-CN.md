@@ -37,7 +37,7 @@ order: 8
 
 当该记录的指定字段值发生变化时，将自动触发属性更新。
 
-![模型数据触发](/assets/usage/bind-attr-model.jpg)
+![模型数据触发](./bind-attr-model.jpg)
 
 ### 消息通知触发
 
@@ -49,7 +49,7 @@ order: 8
     }
 })
 ```
-![消息通知触发](/assets/usage/bind-attr-message.jpg)
+![消息通知触发](./bind-attr-message.jpg)
 
 ### 使用定时器
 
@@ -57,12 +57,12 @@ order: 8
 
 1. 在画布组件栏的"定时器"面板中添加定时器
    <div style="height: 500px;">
-   <img src="/assets/usage/timer.jpg" alt="添加定时器" style="height: 100%;">
+   <img src="./timer.jpg" alt="添加定时器" style="height: 100%;">
    </div>
 2. 在绑定配置中选择该定时器
 3. 默认情况下，属性值会被设置为定时器的执行次数
 
-![定时器触发](/assets/usage/bind-attr-timer.jpg)
+![定时器触发](./bind-attr-timer.jpg)
 
 ### 自定义数值转换
 

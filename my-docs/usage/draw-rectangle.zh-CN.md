@@ -10,5 +10,5 @@ order: 2
 5. 按空格键确认完成绘制，或按 ESC 键取消当前操作
 6. 按 ESC 键可退出矩形绘制模式
 
-![绘制矩形示例](/assets/usage/draw_rectangle.gif)
+![绘制矩形示例](./draw_rectangle.gif)
 

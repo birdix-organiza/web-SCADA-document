@@ -5,7 +5,7 @@ title: UI Introduction
 
 # UI Introduction
 
-![Interface layout description](/assets/usage/ui-introduction.png)
+![Interface layout description](./ui-introduction.png)
 
 ## Main Areas Description
 

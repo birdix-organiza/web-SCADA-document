@@ -10,4 +10,4 @@ order: 3
 5. Press Space key to confirm completion of drawing, or press ESC key to cancel current operation
 6. Press ESC key to exit ellipse drawing mode
 
-![Draw ellipse example](/assets/usage/draw_ellipse.gif) 
+![Draw ellipse example](./draw_ellipse.gif) 

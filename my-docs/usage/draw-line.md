@@ -20,4 +20,4 @@ To draw a path composed of multiple line segments:
 2. Repeat this operation until all line segments are drawn
 3. Press Space key to confirm completion of the overall drawing, or press ESC key to cancel current operation
 
-![Draw line example](/assets/usage/draw_line.gif) 
+![Draw line example](./draw_line.gif) 

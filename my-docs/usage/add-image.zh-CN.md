@@ -18,4 +18,4 @@ order: 5
 - 支持的图片格式包括：PNG、JPG、JPEG、SVG、GIF图片格式
 - 建议上传适当大小的图片或SVG矢量图避免图片失真
 
-![添加图片示例](/assets/usage/add_image.gif)
+![添加图片示例](./add_image.gif)

@@ -20,4 +20,4 @@ order: 1
 2. 重复此操作，直至完成所有线段的绘制
 3. 按空格键确认完成整体绘制，或按 ESC 键取消当前操作
 
-![绘制直线示例](/assets/usage/draw_line.gif)
+![绘制直线示例](./draw_line.gif)
