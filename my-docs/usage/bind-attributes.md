@@ -37,7 +37,7 @@ When choosing model data change as the trigger method, you need to configure:
 
 When the specified field value of that record changes, it will automatically trigger property updates.
 
-![Model data trigger](/assets/usage/bind-attr-model.jpg)
+![Model data trigger](./bind-attr-model.jpg)
 
 ### Message Notification Trigger
 
@@ -49,7 +49,7 @@ After selecting the message notification method, property values will be updated
     }
 })
 ```
-![Message notification trigger](/assets/usage/bind-attr-message.jpg)
+![Message notification trigger](./bind-attr-message.jpg)
 
 ### Using Timer
 
@@ -57,12 +57,12 @@ To use a timer to trigger property changes:
 
 1. Add a timer in the "Timer" panel of the canvas component bar
    <div style="height: 500px;">
-   <img src="/assets/usage/timer.jpg" alt="Add timer" style="height: 100%;">
+   <img src="./timer.jpg" alt="Add timer" style="height: 100%;">
    </div>
 2. Select that timer in the binding configuration
 3. By default, the property value will be set to the number of timer executions
 
-![Timer trigger](/assets/usage/bind-attr-timer.jpg)
+![Timer trigger](./bind-attr-timer.jpg)
 
 ### Custom Value Conversion
 

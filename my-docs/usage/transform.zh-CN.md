@@ -20,4 +20,4 @@ order: 7
 
 这些变形操作可以帮助您精确调整元素的大小、形状和角度,使设计更加灵活。
 
-![元素变形示例](/assets/usage/transform.gif)
+![元素变形示例](./transform.gif)

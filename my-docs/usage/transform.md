@@ -20,4 +20,4 @@ In non-drawing mode, you can perform transformation operations on elements in th
 
 These transformation operations help you precisely adjust the size, shape, and angle of elements, making design more flexible.
 
-![transformation example](/assets/usage/transform.gif) 
+![transformation example](./transform.gif) 

@@ -5,7 +5,7 @@ title: 界面介绍
 
 # 界面介绍
 
-![界面布局说明](/assets/usage/ui-introduction.png)
+![界面布局说明](./ui-introduction.png)
 
 ## 主要区域说明
 

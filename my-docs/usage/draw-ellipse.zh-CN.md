@@ -10,4 +10,4 @@ order: 3
 5. 按空格键确认完成绘制，或按 ESC 键取消当前操作
 6. 按 ESC 键可退出椭圆绘制模式
 
-![绘制椭圆示例](/assets/usage/draw_ellipse.gif)
+![绘制椭圆示例](./draw_ellipse.gif)

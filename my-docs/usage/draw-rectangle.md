@@ -10,4 +10,4 @@ order: 2
 5. Press Space key to confirm completion of drawing, or press ESC key to cancel current operation
 6. Press ESC key to exit rectangle drawing mode
 
-![Draw rectangle example](/assets/usage/draw_rectangle.gif) 
+![Draw rectangle example](./draw_rectangle.gif) 

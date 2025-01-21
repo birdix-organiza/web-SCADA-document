@@ -7,7 +7,7 @@ Before using the preview function, please make sure to enable the display functi
 
 1. Enter the list interface
 2. Set the page status to "Enabled"
-![Enable page](/assets/usage/enabled_switch.png)
+![Enable page](./enabled_switch.png)
 
 After enabling the display function, you can preview and share your work in two ways:
 
@@ -26,4 +26,4 @@ After enabling the display function, you can preview and share your work in two 
 4. Other users can view the page directly through the browser using this link
 5. To stop sharing, simply delete the corresponding external link, and external access will be immediately invalidated
 
-![Share external link](/assets/usage/share-link.jpg) 
+![Share external link](./share-link.jpg) 

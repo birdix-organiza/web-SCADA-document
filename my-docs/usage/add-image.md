@@ -18,4 +18,4 @@ After adding an image, you can choose to replace it with another image in the ri
 - Supported image formats include: PNG, JPG, JPEG, SVG, GIF
 - It is recommended to upload appropriately sized images or SVG vector graphics to avoid image distortion
 
-![Add image example](/assets/usage/add_image.gif) 
+![Add image example](./add_image.gif) 

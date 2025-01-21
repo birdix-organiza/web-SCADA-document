@@ -18,4 +18,4 @@ order: 4
 2. 在属性栏中修改文本内容
 3. 可以调整文本的字体、大小、颜色等属性
 
-![绘制文本示例](/assets/usage/draw_text.gif)
+![绘制文本示例](./draw_text.gif)

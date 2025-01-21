@@ -27,4 +27,4 @@ After saving a component, you can:
 2. Drag the component to where you want to place it on the canvas
 3. Adjust the component's size and properties as needed
 
-![Make component example](/assets/usage/make_component.gif) 
+![Make component example](./make_component.gif) 
