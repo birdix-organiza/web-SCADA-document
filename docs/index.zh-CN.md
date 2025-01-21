@@ -61,6 +61,6 @@ hero:
   <h2>技术支持</h2>
   <p>如需定制开发或咨询服务，请联系我们：</p>
   <div class="contact-info">
-    <a href="mailto:sales@webscada.com">sales@webscada.com</a>
+    <a href="mailto:birdix.goo@gmail.com">birdix.goo@gmail.com</a>
   </div>
 </div>
