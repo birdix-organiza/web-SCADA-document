@@ -4,6 +4,8 @@ export default defineConfig({
   resolve: {
     docDirs: ['my-docs'],
   },
+  runtimePublicPath: {},      // 启用运行时动态设置资源路径
+  publicPath: './',             // 设置资源路径为相对路径
   outputPath: 'docs',
   locales: [
     { id: 'en-US', name: 'EN' },
