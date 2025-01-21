@@ -18,7 +18,7 @@ pip install -r requirements.txt
 1. 登录 Odoo 后台
 2. 进入应用模块（Apps）
 3. 搜索并安装 `web_scada` 模块
-![安装模块](/assets/install/search_app.png)
+![安装模块](./search_app.png)
 
 
 ### 示例数据（可选）

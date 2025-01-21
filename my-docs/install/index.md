@@ -18,7 +18,7 @@ pip install -r requirements.txt
 1. Log in to Odoo backend
 2. Go to Apps module
 3. Search and install `web_scada` module
-![Install module](/assets/install/search_app.png)
+![Install module](./search_app.png)
 
 
 ### Example Data (Optional)

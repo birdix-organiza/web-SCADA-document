@@ -18,6 +18,7 @@ export default defineConfig({
   ],
   themeConfig: {
     name: 'Web SCADA',
+    basePath: `${baseUrl}/`, // 将 base 变量注入到主题配置中
     logo: false,
     nav: {
       'en-US': [
