@@ -8,6 +8,8 @@ hero:
       link: ./zh-CN/usage
     - text: 获取模块
       link: https://github.com/your-repo/web_SCADA_addons
+    - text: 在线演示
+      link: https://demo.example.com/web_scada
 ---
 
 <div class="features">

@@ -8,6 +8,8 @@ hero:
       link: ./usage
     - text: Get Module
       link: https://github.com/your-repo/web_SCADA_addons
+    - text: Online Demo
+      link: https://demo.example.com/web_scada
 ---
 
 <div class="features">
