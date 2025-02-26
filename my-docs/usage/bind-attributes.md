@@ -1,9 +1,9 @@
 ---
 order: 8
 ---
-# Attributes
+# Modify/Bind Attributes
 
-After selecting an element in the canvas, you can modify its inherent properties or bind dynamically changing properties.
+After selecting an element in the canvas, you can modify its inherent properties or bind dynamically changing properties, and you can also configure event response code.
 
 ## Modify Inherent Properties
 
@@ -71,5 +71,36 @@ You can write code to customize how trigger data is converted to target property
 1. Enable "Custom Code" in the binding configuration
 2. Write data conversion logic
 3. Return the final property value to be set
+
+When writing custom conversion code, you can use the `context` object, which has the following properties:
+
+- **context.orm**: Provides the same ORM operation interface as the Odoo frontend, which can be used to read or modify data in the database
+  ```javascript
+  // Example: Using orm to write data
+  context.orm.write('model_name', [1, 2, 3], { field_name: 'new_value' })
+  ```
+
+- **context.props**: When the current graphic belongs to a component, you can use this property to get the current values of all parameters received by the component
+  ```javascript
+  // Example: Get component parameter
+  const paramValue = context.props.paramName
+  ```
+
+Example: Change element color based on temperature value
+```javascript
+// Assume the trigger data is a temperature value
+function (data, context) {
+  const value = data[0];
+  // Get the temperature threshold parameter from the component
+  const threshold = context.props.tempThreshold || 30;
+  
+  // Return different colors based on temperature value
+  if (value > threshold) {
+    return 'red'  // Show red when temperature is too high
+  } else {
+    return 'green'  // Show green when temperature is normal
+  }
+}
+```
 
 Through property binding, you can give canvas elements richer interactive effects and dynamic presentations. 

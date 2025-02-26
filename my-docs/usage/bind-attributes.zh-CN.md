@@ -3,7 +3,7 @@ order: 8
 ---
 # 修改/绑定属性
 
-在画布中选中元素后，您可以修改元素的固有属性或为其绑定动态变化的属性。
+在画布中选中元素后，您可以修改元素的固有属性或为其绑定动态变化的属性，也可以配置响应的事件执行代码。
 
 ## 修改固有属性
 
@@ -71,6 +71,37 @@ order: 8
 1. 在绑定配置中启用"自定义代码"
 2. 编写数据转换逻辑
 3. 返回最终要设置的属性值
+
+在编写自定义转换代码时，您可以使用`context`对象，它具有以下属性：
+
+- **context.orm**：提供与Odoo前端相同的ORM操作接口，可用于读取或修改数据库中的数据
+  ```javascript
+  // 示例：使用orm写入数据
+  context.orm.write('model_name', [1, 2, 3], { field_name: 'new_value' })
+  ```
+
+- **context.props**：当前图形属于某个组件时，可以通过此属性获取组件接收的所有参数的当前值
+  ```javascript
+  // 示例：获取组件参数
+  const paramValue = context.props.paramName
+  ```
+
+示例：根据温度值改变元素颜色
+```javascript
+// 假设触发数据是温度值
+function (data, context) {
+  const value = data[0];
+  // 获取组件中的温度阈值参数
+  const threshold = context.props.tempThreshold || 30;
+  
+  // 根据温度值返回不同的颜色
+  if (value > threshold) {
+    return 'red'  // 温度过高显示红色
+  } else {
+    return 'green'  // 温度正常显示绿色
+  }
+}
+```
 
 通过属性绑定，您可以让画布中的元素具有更丰富的交互效果和动态表现。
 
