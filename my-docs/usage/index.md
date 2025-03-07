@@ -1,5 +1,18 @@
 # Usage
 
+## Permission Management
+
+To use Web SCADA features, users need to be added to the corresponding permission group:
+
+1. Go to Odoo Settings menu
+2. Select "Users & Companies" > "Users"
+3. Find the user that needs authorization and click edit
+4. In the Access Rights tab, find the "Web SCADA / SCADA Manager" group
+5. Check this permission group
+6. Click the save button to complete the setup
+
+Only users added to the SCADA Manager group can create, edit and manage pages.
+
 ## Page Management
 
 ### Create New Page
