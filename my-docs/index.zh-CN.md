@@ -7,9 +7,9 @@ hero:
     - text: 快速开始
       link: ./zh-CN/usage
     - text: 获取模块
-      link: https://github.com/your-repo/web_SCADA_addons
+      link: https://apps.odoo.com/apps/modules/18.0/web_scada
     - text: 在线演示
-      link: https://demo.example.com/web_scada
+      link: http://49.51.51.114:8069
 ---
 
 <div class="features">
