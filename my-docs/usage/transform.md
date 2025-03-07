@@ -13,6 +13,8 @@ In non-drawing mode, you can perform transformation operations on elements in th
    - After selecting an element, a transform box will appear with 8 control points (4 corners and 4 midpoints of edges)
    - Drag these control points to change the size and shape of the element
    - Hold Shift key while dragging corner control points to maintain original proportions during scaling
+
+   > Note: Transform operations only modify the element's x and y axis scale, without changing the fixed width and height property values
    
 3. **Rotation Operations**
    - There is a circular control point at the top of the transform box
